@@ -1,13 +1,14 @@
 "use strict";
 
-var _react = _interopRequireDefault(require("react"));
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.App = App;
 
-var _jsxRuntime = require("react/jsx-runtime");
+var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function App() {
-  return /*#__PURE__*/(0, _jsxRuntime.jsx)("h1", {
-    children: "Ola mundo!"
-  });
+  return /*#__PURE__*/React.createElement("h1", null, "Ola mundo!");
 }
