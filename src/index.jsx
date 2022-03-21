@@ -1,8 +1,4 @@
 
     import react from "react";
+    import { App } from "./App";
 
-    export function App(){
-        return (
-            <h1>Ola mundo!</h1>
-        );
-    }
